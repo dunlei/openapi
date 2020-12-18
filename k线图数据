@@ -1,1 +1,31 @@
+查询支持的交易币种
+url {URL}/openapi/open/symbol_thumb
 
+{
+	"data": [
+		{
+			"symbol": "BTC/USDT", //币对名称
+			"open": "22567.43", //开盘价
+			"high": "23705.83",//最高价
+			"low": "22321.00",//最低价
+			"close": "22975.43",//当前价
+			"chg": "0.0181",//涨幅
+			"change": "408.00",
+			"volume": "1149259.0000",//成交额
+			"turnover": "54885.1586",//成交量
+			"lastDayClose": "0",
+			"usdRate": null,
+			"baseUsdRate": "6.7",
+			"closeStr": null,
+			"proportion": null,
+			"cnyPrice": null,
+			"cnName": null,
+			"scale": "2",
+			"imgUrl": "/file/BTC@2x.png"//币种图片
+		}
+	],
+	"code": 0,
+	"errCode": 200,
+	"message": "成功",
+	"total": null
+}
