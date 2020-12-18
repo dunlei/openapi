@@ -1,1 +1,18 @@
+查询用户id  GET
+url {URL}/openapi/user/get/account
 
+请求参数  
+accessKeyId  apitoken
+timestamp    当前时间戳
+signature    签名
+
+
+{
+	"data": {
+		"memberId": 1 //用户id
+	},
+	"code": 0,
+	"errCode": 200,
+	"message": "成功",
+	"total": null
+}
